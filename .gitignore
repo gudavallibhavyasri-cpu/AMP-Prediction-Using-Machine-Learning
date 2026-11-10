@@ -1,0 +1,44 @@
+# Python environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Private configuration
+.env
+.streamlit/secrets.toml
+
+# Dataset files: retain only the data documentation
+data/*
+!data/README.md
+
+# Model files: retain only the compressed model
+models/*
+!models/random_forest_optimized_compressed.pkl
+
+# Private validation data
+validation/
+
+# Temporary files
+*.log
+
+# Exclude detailed result files by default
+results/*
+
+# Include selected summary results and figures
+!results/model_comparison.csv
+!results/model_comparison_experiment2.csv
+!results/random_forest_optimized_metrics.csv
+!results/random_forest_feature_importance.csv
+!results/feature_category_importance.csv
+!results/random_forest_top20_feature_importance.png
+!results/feature_category_importance.png

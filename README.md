@@ -132,6 +132,16 @@ Feature importance indicates how the trained model uses features; it does not es
 
 The summed importance of feature categories is also affected by the number of features in each category, particularly the 400 DPC features.
 
+## Application Screenshots
+
+### Streamlit Application
+
+![AMP Prediction Application](images/amp_app.png)
+
+### Prediction Results
+
+![AMP Prediction Results](images/amp_prediction_result.png)
+
 ## Application Architecture
 
 The project includes a FastAPI backend and Streamlit frontend.
